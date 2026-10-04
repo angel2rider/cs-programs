@@ -1,0 +1,29 @@
+<html>
+    <head><title>Upper-Lower Case</title>
+        <script language="Javascript">
+            function upper()
+            {
+                var x,y;
+                x=document.frm1.txt1.value;
+                y=x.toUpperCase();
+                document.frm1.txt1.value=y;
+            }
+            function lower()
+            {
+                var x,y;
+                x=document.frm1.txt1.value;
+                y=x.toLowerCase();
+                document.frm1.txt1.value=y;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="frm1">
+            <h3 align="center">Case Conversion</h3>
+            Enter a text:
+            <input type="text" name="txt1" size="25"><br><br>
+            <input type="button" value="To Lower Case" onClick="lower()">
+            <input type="button" value="To Upper Case" onClick="upper()">
+        </form>
+    </body>
+</html>
