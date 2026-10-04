@@ -1,0 +1,43 @@
+<html>
+    <head><title>Day Name</title>
+
+        <script language="Javascript">
+          function day()
+           {
+                var n,a;
+                n=Number(document.frm1.txt1.value);
+                switch(n)
+                {
+                   case 1: d="Sunday"
+                       break;
+                    case 1: d="Monday"
+                        break;
+                    case 1: d="Tueday"
+                     break;
+                    case 1: d="Wednesday"
+                        break;
+                    case 1: d="Thursday"
+                        break;
+                    case 1: d="Friday"
+                        break;
+                    case 1: d="Saturday"
+                        break;
+                    default: d="Invalid Entry";
+            }
+            document.frm1.txt2.value=d;
+        }
+        </script>
+    </head>
+    <body bgcolor="pink">
+        <form name="frm1">
+            <h3 align="center">Day of a Week</h3>
+            Enter a number:
+            <input type="text" name="txt1" size="25">
+            <br><br>
+            Day of a week:
+            <input type="text" name="txt2" size="25">
+            <br><br>
+            <input type="button" value="show" onClick="day()">
+        </form>
+    </body>
+</html>
