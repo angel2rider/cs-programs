@@ -21,7 +21,7 @@ e) Delete all the clerks from the table
 Query
 
 create table: employee(ecode int primary key,ename varchar(20),desig varchar(25),dept varchar(25),basic decimal(10,2),da decimal(10,2),gross decimal(10,2));
-insert into employee values(10101,'Raji','Clerk','Finance',35000,null,null);
+insert into employee values(10101,'Raji','Clerk','Finance',3500,null,null);
 insert into employee values(10102,'Kumar','Ast.Manager','Purchase',52000,null,null);
 insert into employee values(10103,'Asha','Clerk','Sales',38000,null,null);
 insert into employee values(10104,'Smith','Manager','HR',77000,null,null);
