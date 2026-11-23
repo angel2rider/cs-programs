@@ -20,7 +20,7 @@ Query
 
 create table bank(accNo int primary key,accName varchar(20),branchName varchar(25),accType varchar(10),amount decimal(10,2));
 insert into bank values(10012010,'Thara','Trivandrum','saving',5000);
-insert into bank values(10012020,'Rahul','Kollam','current',6000);
+insert into bank values(10012020,'Rahul','Kollam','saving',6000);
 insert into bank values(10012030,'Jai','Thrissur','saving',2000);
 insert into bank values(10012040,'Anjali','Ernakulam','current',10000);
 insert into bank values(10012050,'Maya','Trivandrum','saving',4200);
