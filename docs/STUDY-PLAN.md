@@ -1,5 +1,5 @@
 # Study plan
 
-A suggested order for working through the examples.
+Suggested order: digit arithmetic, loops, strings, arrays, search/sort, maths, structures, web forms/lists, then SQL.
 
-Generated from the source files in this repository.
+See `docs/study-notes/` for per-file notes.
