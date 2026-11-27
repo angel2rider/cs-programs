@@ -1,5 +1,5 @@
-# Study notes
+# Study notes index
 
-Index of the generated study notes, grouped by source file.
+Index of the 287 generated study notes. Each note names its source file and study focus.
 
-Generated from the source files in this repository.
+See `docs/study-notes/` for per-file notes.
