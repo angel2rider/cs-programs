@@ -1,5 +1,5 @@
 # Command cheat sheet
 
-Common g++, php and sqlite3 commands for these examples.
+Commands: g++ -std=c++17 -Wall -Wextra file.cpp -o file && ./file; php file.php; sqlite3 db.sqlite < file.sql.
 
-Generated from the source files in this repository.
+See `docs/study-notes/` for per-file notes.
